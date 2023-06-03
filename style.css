@@ -98,7 +98,7 @@ body {
 }
 
 .button:hover {
-    background-color: rgb(156, 63, 63);
+    background-color: rgb(255, 81, 0);
 }
 
 .header-down {
@@ -165,4 +165,8 @@ body {
     text-decoration: none;
     border-radius: 7px;
     transition: background-color 0.3s linear;
+}
+
+.header-button:hover {
+    background-color: rgb(255, 81, 0);
 }
