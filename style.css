@@ -170,3 +170,144 @@ body {
 .header-button:hover {
     background-color: rgb(255, 81, 0);
 }
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card {
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0px 0px 10px 10px;
+    margin-bottom: 166px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #2C2C2C;
+    font-size: 26px;
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-title span {
+    color: #D67E35;
+    padding-left: 7px;
+}
+
+.card-desc {
+    color: #656363;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.history {
+    margin-top: 166px;
+
+}
+
+.history-holder {
+    /* justify-content: center; */
+    display: flex;
+}
+
+.history-title {
+    font-family: 'Tinos', serif;
+    /* color: #D67E35; */
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    
+    padding-bottom: 21px;
+}
+
+.history-title span {
+    color: #D67E35;
+}
+
+.history-desc {
+    font-size: 16px;
+    color: #656363;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.history-number-item {
+    margin-right: 60px;
+    color: #BC9060;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.history-number-item span {
+    display: block;
+    color: #000;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.history-images {
+    position: relative;
+}
+
+.history-img-1 {
+    position: absolute;
+    z-index: 999;
+    top: 49px;
+    left: 125px;
+}
+
+.history-img-2 {
+    position: absolute;
+    z-index: 997;
+    top: -10px;
+    left: 306px;
+}
+
+.history-img-3 {
+    position: absolute;
+    z-index: 998;
+    top: 185px;
+    left: 409px;
+}
+.history-img-4 {
+    position: absolute;
+    z-index: 996;
+    top: 30px;
+    left: 409px;
+}
